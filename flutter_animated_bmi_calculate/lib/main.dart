@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter_animated_bmi_calculate/inputPage.dart';
+import 'package:flutter_animated_bmi_calculate/input_page.dart';
 
 const double baseHeight = 650.0;
 

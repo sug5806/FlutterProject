@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_animated_bmi_calculate/gender_card.dart';
 import 'package:flutter_animated_bmi_calculate/main.dart';
 
 
@@ -54,7 +55,7 @@ class InputPage extends StatelessWidget {
           Expanded(
             child: Column(
               children: <Widget>[
-                Expanded(child: _tempCard("Gender")),
+                Expanded(child: GenderCard()),
                 Expanded(child: _tempCard("Weight")),
               ],
             ),
